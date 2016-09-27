@@ -9,7 +9,7 @@ In order to use kubernetes apis from withing a pod you'll need to authenticate w
 
 Kubernetes places a credential (token) in every container filesystem, along with a certificate bundle for https calls ([see more here](http://kubernetes.io/docs/user-guide/accessing-the-cluster/#accessing-the-api-from-a-pod)).
 
-This pluing helps you easly get them. You can thant use them with any kubernetes api package or for raw https requests
+This pluing helps you easly get them. You can then use them with any kubernetes api package or for raw https requests
 
 ## Install
 
