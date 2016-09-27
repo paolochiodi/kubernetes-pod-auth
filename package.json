@@ -1,0 +1,23 @@
+{
+  "name": "kubernetes-pod-auth",
+  "version": "1.0.0",
+  "description": "Get auth token and ca certificates from within a kubernetes pod",
+  "main": "pod-auth.js",
+  "scripts": {},
+  "author": "Paolo Chiodi (https://github.com/paolochiodi)",
+  "license": "MIT",
+  "keywords": [
+    "kubernetes",
+    "pod",
+    "authentication",
+    "token",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolochiodi/kubernetes-pod-auth"
+  },
+  "dependencies": {
+    "async": "^2.0.1"
+  }
+}
